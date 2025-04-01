@@ -1,0 +1,6 @@
+{:paths ["src"]
+ :deps { io.github.lispyclouds/bblgum {:git/sha "b46455a5f40fa3e058376f38ddbd3cb9c45ff133"}
+        org.babashka/cli {:mvn/version "0.8.62"}}
+ :aliases
+ {:run-m {:main-opts ["m" "bblife.core"]}}
+ }
